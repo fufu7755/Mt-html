@@ -23,6 +23,7 @@ body {
 
 .phone i {
     margin-right: 5px;
+    width: 15px;
 }
 
 /* Style for our header texts
@@ -308,7 +309,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .copyright .nav-second-main li {
     font-size: 24px;
     letter-spacing: 0;
-    color: #ff732e;
+    color: #ff732e !important;
     font-weight: 200;
     padding: 0;
 }
@@ -1138,140 +1139,6 @@ ul.portfolio-items >li.info-item {
         padding: 0;
     }
 
-}
-
-@media (min-width: 768px) {
-    .text-sm-left { text-align: left; }
-    .text-sm-right { text-align: right; }
-    .text-sm-center { text-align: center; }
-    .text-sm-justify { text-align: justify; }
-}
-
-@media (min-width: 992px) {
-    .text-md-left { text-align: left; }
-    .text-md-right { text-align: right; }
-    .text-md-center { text-align: center; }
-    .text-md-justify { text-align: justify; }
-}
-
-@media (max-width: 414px) {
-    .slogan {
-        margin-top: 10px;
-        font-size: 16px;
-    }
-
-    ul.portfolio-items >li {
-        height: 25%;
-        width: 50%;
-        max-width: 50%;
-    }
-
-    ul.portfolio-items >li.wide {
-        width: 100%;
-        max-width: 100%;
-    }
-    
-    .effect .back:hover {
-        bottom:-60px;
-        padding-top:60px
-    }
-
-    #mdr10-silent2 {
-        background-image: url(../img/ct-small.jpg);
-    }
-
-    #mdr10-compact {
-        background-image: url(../img/coop-small.jpg);
-    }
-
-
-
-    #mdr10-culture {
-        background-image: url(../img/company-small.jpg);
-    }
-
-    #mdr10-culture .title3 {
-        font-size: 24px;
-    }
-
-    #mdr10-world {
-        background-image: url(../img/world-small.jpg);
-    }
-
-    #mdr10-world-fullbg {
-        display: none;
-    }
-
-    #mdr10-world2 {
-        background-image: url(../img/world-small.jpg);
-        background-position: center center;
-        background-attachment: fixed;
-    }
-
-    #mdr10-world-fullbg2 {
-        background-image: url(../img/place2-small.png);
-        background-position: center center;
-        background-attachment: fixed;
-    }
-
-
-
-    .big-title {
-        font-size: 24px;
-    }
-    .info {
-        font-size: 16px;
-    }
-    .title2 {
-        font-size: 14px;
-    }
-
-    .zx {
-        margin-top: 0;
-    }
-
-    h4 {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .background:nth-child(5) {
-        background-image: url(../img/coop-small.jpg);
-    }
-
-    .background:nth-child(6) {
-        background-image: url(../img/team-small.jpg);
-    }
-
-    .background:nth-child(6) .title3 {
-        font-size: 24px;
-        color: #666;
-        padding-top: 0;
-        position: absolute;
-        top: 50%;
-    }
-
-    .demo-3 li img {
-        width: 80%;
-        
-        display: inline-block;
-    }
-
-    .firstSection .navbar-nav >li.email {
-        color: #00a2c2;
-    }
-
-    .index-banner .tab-con .item {
-        height: 550px;
-    }
-
-    .zx img {
-        max-height: 100px;
-    }
-    .index-banner .tab-con .item4 {
-        background-image: url(../img/sm1.jpg) !important;
-    }
-
     /* menu animation */
 
     .in .navbar-nav >li:nth-child(1) {
@@ -1418,6 +1285,141 @@ ul.portfolio-items >li.info-item {
         -o-transition: all .4s ease-out;
         transition: all .4s ease-out;
     }
+
+}
+
+@media (min-width: 768px) {
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: 992px) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
+
+@media (max-width: 414px) {
+    .slogan {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    ul.portfolio-items >li {
+        height: 25%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+    ul.portfolio-items >li.wide {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .effect .back:hover {
+        bottom:-60px;
+        padding-top:60px
+    }
+
+    #mdr10-silent2 {
+        background-image: url(../img/ct-small.jpg);
+    }
+
+    #mdr10-compact {
+        background-image: url(../img/coop-small.jpg);
+    }
+
+
+
+    #mdr10-culture {
+        background-image: url(../img/company-small.jpg);
+    }
+
+    #mdr10-culture .title3 {
+        font-size: 24px;
+    }
+
+    #mdr10-world {
+        background-image: url(../img/world-small.jpg);
+    }
+
+    #mdr10-world-fullbg {
+        display: none;
+    }
+
+    #mdr10-world2 {
+        background-image: url(../img/world-small.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    #mdr10-world-fullbg2 {
+        background-image: url(../img/place2-small.png);
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+
+
+    .big-title {
+        font-size: 24px;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .title2 {
+        font-size: 14px;
+    }
+
+    .zx {
+        margin-top: 0;
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .background:nth-child(5) {
+        background-image: url(../img/coop-small.jpg);
+    }
+
+    .background:nth-child(6) {
+        background-image: url(../img/team-small.jpg);
+    }
+
+    .background:nth-child(6) .title3 {
+        font-size: 24px;
+        color: #666;
+        padding-top: 0;
+        position: absolute;
+        top: 50%;
+    }
+
+    .demo-3 li img {
+        width: 80%;
+        
+        display: inline-block;
+    }
+
+    .firstSection .navbar-nav >li.email {
+        color: #00a2c2;
+    }
+
+    .index-banner .tab-con .item {
+        height: 550px;
+    }
+
+    .zx img {
+        max-height: 100px;
+    }
+    .index-banner .tab-con .item4 {
+        background-image: url(../img/sm1.jpg) !important;
+    }
+
 
 
 }
