@@ -315,7 +315,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .phone2 {
-    color: rgb(255, 155, 45); !important;
+    font-family: "bebas";
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(255, 155, 45) !important;
+
 }
 
 .footer-socials {
