@@ -309,13 +309,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .copyright .nav-second-main li {
     font-size: 24px;
     letter-spacing: 0;
-    color: #ff732e !important;
+    color: rgb(255, 155, 45);
     font-weight: 200;
     padding: 0;
 }
 
 .phone2 {
-    color: #ff732e !important;
+    color: rgb(255, 155, 45); !important;
 }
 
 .footer-socials {
