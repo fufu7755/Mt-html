@@ -314,6 +314,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0;
 }
 
+.phone2 {
+    color: #ff732e !important;
+}
+
 .footer-socials {
     margin-top: 3px;
     margin-bottom: 0;
