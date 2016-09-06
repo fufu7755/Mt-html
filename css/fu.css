@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .navbar-nav >li.active >a, .navbar-nav >li.active a:hover {
     color: #00a2c2;
-    background-color: rgba(240, 240, 240, 0.1);
+    background-color: rgba(240, 240, 240, 0.3);
 }
 
 .navbar-nav >li.active b {
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     bottom: 0;
     background-color: #efefef;
     width: 100%;
-    padding: 25px 0;
+    padding: 15px 0;
     z-index: 100;
 }
 
@@ -797,12 +797,13 @@ ul.portfolio-items li:hover .image-extra {
     margin-top: 30px;
 }
 
-.index-banner{ width:100%; height:100%; overflow:hidden; margin:0 auto;}
+.index-banner{ width:100%; height:100%; overflow:hidden; margin:0 auto; margin-bottom: 100px;}
 .index-banner .tab-con{ width:100%; height: 100%; overflow:hidden; margin:0 auto;}
 .index-banner .tab-con .item {
     width:100%;
-    height: 850px;
+    height: 100%;
     position:absolute;
+    margin-bottom: 100px;
     opacity:0;
     top:0px;
     background-position:center center;

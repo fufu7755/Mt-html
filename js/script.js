@@ -60,3 +60,20 @@ var timer_slide;
 function _createTimer() {
     window.clearInterval(timer_slide)
 }
+
+jQuery(document).ready(function($) {
+    $(window).load(function() {
+        /* Act on the event */
+        var h1 = $(window).height();
+        var h2 =  $('.intro').height();
+        console.log(h1,h2);
+        $('.tab-con .item').height(h1 - h2);
+    });
+    $(window).resize(function(event) {
+        /* Act on the event */
+        var h1 = $(window).height();
+        var h2 =  $('.intro').height();
+        $('.tab-con .item').height(h1 - h2);
+    });
+
+});
