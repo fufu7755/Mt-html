@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0;
 }
 
-.copyright .nav-second-main li {
+.copyright .phone2 {
     font-family: "bebas";
     font-weight: 100;
     font-size: 24px;
@@ -316,12 +316,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0;
 }
 
-.copyright .nav-second-main li a {
-    color: rgb(255, 155, 45);
+.copyright .icp >a {
+    color: #666;
 }
 
-.copyright .icp a {
-    color: #666;
+.copyright .phone2 a {
+    color: rgb(255, 155, 45);
 }
 
 .footer-socials {
