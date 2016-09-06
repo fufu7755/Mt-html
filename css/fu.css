@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .navbar-nav >li.active >a, .navbar-nav >li.active a:hover {
     color: #00a2c2;
-    background-color: rgba(240, 240, 240, 0.3);
+    background-color: rgba(240, 240, 240, 0.1);
 }
 
 .navbar-nav >li.active b {
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .firstSection .navbar-nav >li.active >a, .firstSection .navbar-nav >li.active a:hover {
     color: #fff;
-    background-color: rgba(240, 240, 240, 0.3);
+    background-color: rgba(240, 240, 240, 0.1);
 }
 
 .firstSection .navbar-nav >li>a:hover, .firstSection .navbar-nav >li>a:focus {
