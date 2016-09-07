@@ -176,19 +176,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .firstSection .navbar-nav >li {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .firstSection .navbar-nav >li >a {
-    color: #fff;
-}
-
-.firstSection .navbar-nav >li.phone {
     color: rgba(255, 255, 255, 0.6);
 }
+
 
 .firstSection .navbar-nav >li.active >a, .firstSection .navbar-nav >li.active a:hover {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(240, 240, 240, 0.1);
 }
 
