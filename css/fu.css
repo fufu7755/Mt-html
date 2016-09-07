@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
     margin:-1px auto 0;
     width: 0;
-    height: 2px;
+    height: 1px;
     background-color: #03b0d2;
     transition: all ease-out .2s;
     -ms-transition: all ease-out .2s;
@@ -181,6 +181,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .firstSection .navbar-nav >li >a {
     color: #fff;
+}
+
+.firstSection .navbar-nav >li.phone {
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .firstSection .navbar-nav >li.active >a, .firstSection .navbar-nav >li.active a:hover {
