@@ -544,7 +544,12 @@ ul.portfolio-items >li {
     vertical-align: top;
     text-align: left; overflow:hidden;
 }
-ul.portfolio-items >li.wide{ width:50%; max-width:50%;}
+
+ul.portfolio-items >li.wide {
+    width:50%;
+    max-width:50%;
+}
+
 ul.p_training >li {
     width: 10%;
     max-width: 10%;
@@ -591,9 +596,9 @@ ul.portfolio-items li .image-extra {
     opacity: 0;
     filter: alpha(opacity = 0);
     background-color: rgba(0, 194, 169, 0.1);
-    transition: opacity 2s, transform 2s;
-    -webkit-transition: opacity 2s, transform 2s;
-    -moz-transition: opacity 2s, transform 2s;
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transition: opacity 0.5s, transform 0.5s;
+    -moz-transition: opacity 0.5s, transform 0.5s;
     /*
     -webkit-transition: opacity .25s ease, background-color .45s ease;
             transition: opacity .25s ease, background-color .45s ease;
@@ -604,9 +609,9 @@ ul.portfolio-items li:hover .image-extra {
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 1;
     filter: alpha(opacity = 80);
-    transition: opacity 1.5s, transform 0.8s;
-    -webkit-transition: opacity 1.5s, transform 0.8s;
-    -moz-transition: opacity 1.5s, transform 0.8s;
+    transition: opacity 0.5s, transform 0.3s;
+    -webkit-transition: opacity 0.5s, transform 0.5s;
+    -moz-transition: opacity 0.5s, transform 0.3s;
 }
 .ie8 .image-extra { visibility: hidden; }
 
@@ -861,7 +866,7 @@ ul.portfolio-items >li.info-item {
 }
 
 .content-holder {
-    margin-top: 71px;
+    margin-top: 70px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
