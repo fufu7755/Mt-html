@@ -731,7 +731,7 @@ ul.portfolio-items li:hover .image-extra {
 }
 .demo-3 figure:hover >img,figure.hover >img {
     opacity: 0;
-    transition:opacity 0.3s linear;
+
 
 }
 .demo-3 figure:hover figcaption,figure.hover figcaption {
