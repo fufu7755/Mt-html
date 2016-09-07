@@ -48,11 +48,11 @@ function banner_index(btn_item) {
     $tab_con.find(".active").removeClass("active").animate({
             opacity: 0
         },
-        500);
+        300);
     $tab_con.find(".item").eq(i_next).addClass("active").animate({
             opacity: 1
         },
-        600)
+        400)
 }
 
 var timer_slide;
