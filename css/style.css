@@ -46,7 +46,7 @@ body {
 }
 
 .background:nth-child(4) {
-  background-image: url(../img/ct.jpg);
+  background-color: #fff;
 }
 
 .background:nth-child(5) {

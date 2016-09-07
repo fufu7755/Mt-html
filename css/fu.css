@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: relative;
     width:100%;
     height:75%;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .custom-top {
@@ -558,7 +558,6 @@ ul.portfolio-items img {
 }
 
 .work-item {
-    position: relative;
     overflow: hidden;
     background-position:center center;
     background-size:cover;
@@ -866,7 +865,6 @@ ul.portfolio-items li:hover .image-extra {
     border-bottom: 1px solid #efeded;
 }
 
-
 .email {
     font-size: 18px;
     color: #00a2c2;
@@ -877,6 +875,10 @@ ul.portfolio-items >li.info-item {
     position: relative;
     width: 33.33%;
     max-width: 33.33%;
+}
+
+.content-holder {
+    margin-top: 71px;
 }
 
 /* Animal X close button */
