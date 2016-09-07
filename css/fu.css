@@ -214,7 +214,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     bottom: 0;
     background-color: #efefef;
     width: 100%;
-    padding: 15px 0;
     z-index: 100;
 }
 
@@ -768,6 +767,10 @@ ul.portfolio-items li:hover .image-extra {
     transform:rotateY(0)
 }
 
+.tab-btn .item {
+    padding: 15px 0;
+}
+
 .disp-table {
     display: table;
     height: 100%;
@@ -798,13 +801,12 @@ ul.portfolio-items li:hover .image-extra {
     margin-top: 30px;
 }
 
-.index-banner{ width:100%; height:100%; overflow:hidden; margin:0 auto; margin-bottom: 100px;}
+.index-banner{ width:100%; height:100%; overflow:hidden; margin:0 auto;}
 .index-banner .tab-con{ width:100%; height: 100%; overflow:hidden; margin:0 auto;}
 .index-banner .tab-con .item {
     width:100%;
     height: 100%;
     position:absolute;
-    margin-bottom: 100px;
     opacity:0;
     top:0px;
     background-position:center center;
@@ -879,6 +881,10 @@ ul.portfolio-items >li.info-item {
 
 .content-holder {
     margin-top: 71px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
 }
 
 /* Animal X close button */
@@ -1177,7 +1183,7 @@ ul.portfolio-items >li.info-item {
         background-color: #fff;
     }
 
-    .firstSection .intro {
+    .firstSection .intro .item {
         padding: 0;
     }
 
@@ -1451,9 +1457,6 @@ ul.portfolio-items >li.info-item {
         color: #00a2c2;
     }
 
-    .index-banner .tab-con .item {
-        height: 550px;
-    }
 
     .zx img {
         max-height: 100px;

@@ -50,7 +50,7 @@ body {
 }
 
 .background:nth-child(5) {
-  background-image: url(../img/ux_bg.jpg);
+  background-color: #fff;
 }
 
 .background:nth-child(6) {

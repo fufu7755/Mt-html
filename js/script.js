@@ -65,9 +65,10 @@ jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
         var h1 = $(window).height();
+        var w1 = $(window).width();
         var h2 =  $('.intro').height();
-        console.log(h1,h2);
         $('.tab-con .item').height(h1 - h2);
+
     });
     $(window).resize(function(event) {
         /* Act on the event */
