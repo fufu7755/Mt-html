@@ -822,7 +822,12 @@ ul.portfolio-items li:hover .image-extra {
 
 .client {
     border-right: 1px solid #efeded;
-
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
 }
 
 .portfolio-items li:last-child .client, .portfolio-items li:nth-child(8) .client{
@@ -1011,25 +1016,41 @@ ul.portfolio-items >li.info-item {
 }
 
 .coop-pic {
+    position: relative;
     height: 60%;
     overflow: hidden;
+}
+
+.coop-pic .container {
+    height: 100%;
+    position: relative;
 }
 
 .coop_bg {
     position: relative;
     height: 100%;
+    background-image: url(../assets/img/coop_1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .coop_bg img {
     max-height: 100%;
     max-width: 100%;
-
+    width: auto;
+    height: auto;
+    display: inline-block;
 }
 
 .coop-client {
     height: 25%;
 }
 
+.coop-client .container {
+    position: relative;
+    height: 100%;
+}
 
 
 /* Responsive Css */
