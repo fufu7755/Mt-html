@@ -58,7 +58,7 @@ body {
 }
 
 .background:nth-child(7) {
-  background-image: url(../img/team2.jpg);
+  background-color: #fff;
 }
 
 .background:nth-child(8) {
