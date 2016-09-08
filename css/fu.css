@@ -453,9 +453,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .class-link {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     margin-top: 30px;
-
 }
 
 .button.blue:hover {
@@ -970,7 +969,7 @@ ul.portfolio-items >li.info-item {
 }
 
 .class-title {
-    color: #000;
+    color: #fff;
     font-size: 64px;
     position: absolute;
     letter-spacing: 2px;
@@ -991,20 +990,23 @@ ul.portfolio-items >li.info-item {
 
 .class-name {
     font-size: 32px;
-    color: #000;
-    letter-spacing: 1px;
+    color: #fff;
+    letter-spacing: 2px;
     font-weight: 100;
+    line-height: 36px;
 }
 
 .class-price {
     font-size: 16px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 
 .coop-title {
     height: 15%;
     overflow: hidden;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .coop-pic {
