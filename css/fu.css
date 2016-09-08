@@ -1018,7 +1018,7 @@ ul.portfolio-items >li.info-item {
 
 .coop-pic {
     position: relative;
-    height: 60%;
+    height: 65%;
     overflow: hidden;
 }
 
@@ -1031,8 +1031,8 @@ ul.portfolio-items >li.info-item {
     position: relative;
     height: 100%;
     background-image: url(../assets/img/coop_1.jpg);
-    background-position: center;
-    background-size: contain;
+    background-position: top center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -1045,7 +1045,7 @@ ul.portfolio-items >li.info-item {
 }
 
 .coop-client {
-    height: 25%;
+    height: 20%;
 }
 
 .coop-client .container {
