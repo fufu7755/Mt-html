@@ -832,6 +832,7 @@ ul.portfolio-items li:hover .image-extra {
 
 .portfolio-items li:last-child .client, .portfolio-items li:nth-child(8) .client{
     border-right: none;
+
 }
 
 .portfolio-items li .client img {
