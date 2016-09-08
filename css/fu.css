@@ -993,14 +993,14 @@ ul.portfolio-items >li.info-item {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 2px;
     font-weight: 100;
-    line-height: 36px;
+    line-height: 40px;
 }
 
 .class-price {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .coop-title {
