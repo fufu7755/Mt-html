@@ -75,6 +75,8 @@ jQuery(document).ready(function($) {
         var h1 = $(window).height();
         var h2 =  $('.intro').height();
         $('.tab-con .item').height(h1 - h2);
+
     });
     $('.ct-content').backstretch('img/ct2.jpg');
+
 });

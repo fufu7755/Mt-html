@@ -53,9 +53,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
 }
 
-.content-top {
-    padding-top: 80px;
-}
 
 /* Centered texts in each section
 * --------------------------------------- */
@@ -456,8 +453,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .class-link {
     font-size: 18px;
-    color: #fff;
-    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 30px;
 
 }
 
@@ -877,12 +874,21 @@ ul.portfolio-items >li.info-item {
 }
 
 .content-holder {
-    margin-top: 70px;
     height: 100%;
+    height: -moz-calc(100% - 70px);
+    height: -webkit-calc(100% - 70px);
+    height: calc(100% - 70px);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     overflow: hidden;
+}
+
+.content-top {
+    display: block;
+    height: 70px;
+    max-height: 70px;
+    background: transparent;
 }
 
 /* Animal X close button */
