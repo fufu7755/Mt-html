@@ -1001,6 +1001,7 @@ ul.portfolio-items >li.info-item {
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 1px;
     line-height: 30px;
+    margin-top: 10px;
 }
 
 .coop-title {
