@@ -501,7 +501,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .title5 {
     font-size: 36px;
     color: #666;
-    padding: 2% 0;
 }
 
 .title3 b {
@@ -547,14 +546,37 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .custom-top {
     width: 100%;
-    height: 20%;
+    height: 15%;
     position: relative;
 }
 
 .custom-box {
     width: 100%;
-    height: 80%;
+    height: 85%;
     position: relative;
+}
+
+.custom-box .container {
+    height: 100%;
+}
+
+.info-pic {
+    position: relative;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info-text {
+    position: relative;
+    height: 30%;
+}
+
+ul.portfolio-items >li.com-info {
+    width: 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
 }
 
 ul.portfolio-items {
