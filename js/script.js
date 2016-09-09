@@ -70,14 +70,14 @@ jQuery(document).ready(function($) {
 
         var h3 = $('.case-top').height();
         $('.tab-con .item').height(h1 - h2);
-        if(h3 < 170) {
+        if(h3 < 180) {
             $('.slogan').css({
                 "font-size":"24px",
                 "margin-top":"5px"
             });
         }
 
-        if(h3 >= 170) {
+        if(h3 >= 180) {
             $('.slogan').css({
                 "font-size":"36px",
                 "margin-top":"20px"
@@ -94,14 +94,14 @@ jQuery(document).ready(function($) {
 
         $('.tab-con .item').height(h1 - h2);
 
-        if(h3 < 170) {
+        if(h3 < 180) {
             $('.slogan').css({
                 "font-size":"24px",
                 "margin-top":"5px"
             });
         }
 
-        if(h3 >= 170) {
+        if(h3 >= 180) {
             $('.slogan').css({
                 "font-size":"36px",
                 "margin-top":"20px"
