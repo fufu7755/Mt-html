@@ -67,14 +67,47 @@ jQuery(document).ready(function($) {
         var h1 = $(window).height();
         var w1 = $(window).width();
         var h2 =  $('.intro').height();
+
+        var h3 = $('.case-top').height();
         $('.tab-con .item').height(h1 - h2);
+        if(h3 < 170) {
+            $('.slogan').css({
+                "font-size":"24px",
+                "margin-top":"5px"
+            });
+        }
+
+        if(h3 >= 170) {
+            $('.slogan').css({
+                "font-size":"36px",
+                "margin-top":"20px"
+            });
+        }
+
 
     });
     $(window).resize(function(event) {
         /* Act on the event */
         var h1 = $(window).height();
         var h2 =  $('.intro').height();
+        var h3 = $('.case-top').height();
+
         $('.tab-con .item').height(h1 - h2);
 
+        if(h3 < 170) {
+            $('.slogan').css({
+                "font-size":"24px",
+                "margin-top":"5px"
+            });
+        }
+
+        if(h3 >= 170) {
+            $('.slogan').css({
+                "font-size":"36px",
+                "margin-top":"20px"
+            });
+        }
+
     });
+
 });
