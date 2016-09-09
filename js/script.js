@@ -77,6 +77,4 @@ jQuery(document).ready(function($) {
         $('.tab-con .item').height(h1 - h2);
 
     });
-    $('.ct-content').backstretch('img/ct2.jpg');
-
 });
