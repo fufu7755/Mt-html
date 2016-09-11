@@ -35,7 +35,6 @@ function banner_index(btn_item) {
             i_next = num + 1
         }
         btn_item = btn.find(".item").eq(i_next);
-        console.log(num);
     } else {
         i_now = btn_item.siblings(".active").index();
         i_next = btn_item.index();
