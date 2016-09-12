@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
         } else {
-            $('.tab-con .item').height(h1 - h2 + 60);
+            $('.tab-con .item').height(h1 - h2);
         }
         if(h3 < 180) {
             $('.slogan').css({
@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
         } else {
-            $('.tab-con .item').height(h1 - h2 + 60);
+            $('.tab-con .item').height(h1 - h2);
         }
 
         if(h3 < 180) {
