@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
 
         var h3 = $('.case-top').height();
         if(w1 > 768) {
-            $('.tab-con .item').height(h1 - h2);
+            $('.tab-con .item').height(h1 - h2 + 90);
         } else {
             if(isSafari) {
                 $('.tab-con .item').height(h1 - h2);
