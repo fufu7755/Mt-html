@@ -25,7 +25,7 @@ function parallaxScroll(evt) {
     }
     if (isFirefox) {
         //Set delta for Firefox
-        // default value = -30
+        // default value = -120
         delta = evt.detail * (-10);
     } else if (isIe) {
         //Set delta for IE

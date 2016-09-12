@@ -64,11 +64,16 @@ jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
         var h1 = $(window).height();
-        var w1 = $(window).width();
+        var w1 = $(window).width()
         var h2 =  $('.intro').height();
+        console.log(w1);
 
         var h3 = $('.case-top').height();
-        $('.tab-con .item').height(h1 - h2);
+        if(w1 > 768) {
+            $('.tab-con .item').height(h1 - h2);
+        } else {
+            $('.tab-con .item').height(h1 - h2 + 60);
+        }
         if(h3 < 180) {
             $('.slogan').css({
                 "font-size":"24px",
@@ -88,10 +93,14 @@ jQuery(document).ready(function($) {
     $(window).resize(function(event) {
         /* Act on the event */
         var h1 = $(window).height();
+        var w1 = $(window).width();
         var h2 =  $('.intro').height();
         var h3 = $('.case-top').height();
-
-        $('.tab-con .item').height(h1 - h2);
+        if(w1 > 768) {
+            $('.tab-con .item').height(h1 - h2);
+        } else {
+            $('.tab-con .item').height(h1 - h2 + 60);
+        }
 
         if(h3 < 180) {
             $('.slogan').css({
