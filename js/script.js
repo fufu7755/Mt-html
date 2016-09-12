@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
             $('.tab-con .item').height(h1 - h2);
         } else {
             if(isSafari) {
-                $('.tab-con .item').height(600);
+                $('.tab-con .item').height(550);
 
             }else {
                 $('.tab-con .item').height(h1 - h2 + 60);
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
         } else {
             if(isSafari) {
 
-                $('.tab-con .item').height(600);
+                $('.tab-con .item').height(550);
             }else {
                 $('.tab-con .item').height(h1 - h2 + 60);
             }
