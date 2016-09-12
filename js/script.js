@@ -68,18 +68,14 @@ jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
         var h1 = $(window).outerHeight();
-        var h4 = $(window).innerHeight();
-        console.log(h1, h4);
         var w1 = $(window).width()
         var h2 =  $('.intro').height();
-        console.log(w1);
-
         var h3 = $('.case-top').height();
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
         } else {
             if(isSafari) {
-                $('.tab-con .item').height(400);
+                $('.tab-con .item').height(500);
 
             }else {
                 $('.tab-con .item').height(h1 - h2 + 60);
@@ -105,11 +101,11 @@ jQuery(document).ready(function($) {
         var h2 =  $('.intro').height();
         var h3 = $('.case-top').height();
         if(w1 > 768) {
-            $('.tab-con .item').height(400);
+            $('.tab-con .item').height(h1 - h2);
         } else {
             if(isSafari) {
 
-                $('.tab-con .item').height(h1 - h2);
+                $('.tab-con .item').height(500);
             }else {
                 $('.tab-con .item').height(h1 - h2 + 60);
             }
