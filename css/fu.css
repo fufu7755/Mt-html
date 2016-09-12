@@ -864,6 +864,7 @@ ul.portfolio-items li:hover .image-extra {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .portfolio-items li.clients-item {
