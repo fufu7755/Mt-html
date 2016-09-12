@@ -63,7 +63,8 @@ function _createTimer() {
 jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
-        var h1 = $(window).height();
+        var h1 = $(window).outerHeight();
+        console.log(h1);
         var w1 = $(window).width()
         var h2 =  $('.intro').height();
         console.log(w1);
@@ -92,7 +93,7 @@ jQuery(document).ready(function($) {
     });
     $(window).resize(function(event) {
         /* Act on the event */
-        var h1 = $(window).height();
+        var h1 = $(window).outerHeight();
         var w1 = $(window).width();
         var h2 =  $('.intro').height();
         var h3 = $('.case-top').height();
