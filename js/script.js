@@ -81,15 +81,12 @@ jQuery(document).ready(function($) {
                 "margin-top":"5px"
             });
         }
-
         if(h3 >= 180) {
             $('.slogan').css({
                 "font-size":"36px",
                 "margin-top":"20px"
             });
         }
-
-
     });
     $(window).resize(function(event) {
         /* Act on the event */
