@@ -6,18 +6,6 @@
     font-style: normal;
 }
 
-html {
-    /* Allows content to fill the viewport and go beyond the bottom */
-    height: 100%;
-
-    /* Allows you to scroll below the viewport; default value is visible */
-    overflow-y: scroll;
-
-    /* To smooth any scrolling behavior */
-    -webkit-overflow-scrolling: touch;
-}
-
-
 body {
     font-family: "source-han-sans-simplified-c",sans-serif;
     font-weight: 100;
@@ -1382,6 +1370,11 @@ ul.portfolio-items >li.info-item {
         position: relative;
         opacity: 1;
     }
+
+    .in .navbar-nav >li:nth-child(6) a {
+        display: inline-block;
+    }
+    
     .in .navbar-nav >li:nth-child(7) {
         transform: translateY(0);
         position: relative;
