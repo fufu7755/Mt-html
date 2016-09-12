@@ -1,3 +1,5 @@
+window.scrollTo(0, 1);
+
 window.onload = function() {
     $('body').addClass('firstSection');
 }
