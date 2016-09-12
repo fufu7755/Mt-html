@@ -79,7 +79,9 @@ jQuery(document).ready(function($) {
             $('.tab-con .item').height(h1 - h2);
         } else {
             if(isSafari) {
-                $('.tab-con .item').height(h1 - h2 + 100);
+                $('.background').height(h1 - 44);
+                $('.tab-con .item').height(h1 - h2 + 60);
+
             }else {
                 $('.tab-con .item').height(h1 - h2 + 60);
             }
