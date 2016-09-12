@@ -1,3 +1,6 @@
+//Check
+var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+    navigator.userAgent && !navigator.userAgent.match('CriOS');
 
 window.onload = function() {
     $('body').addClass('firstSection');
@@ -65,7 +68,8 @@ jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
         var h1 = $(window).outerHeight();
-        console.log(h1);
+        var h4 = $(window).innerHeight();
+        console.log(h1, h4);
         var w1 = $(window).width()
         var h2 =  $('.intro').height();
         console.log(w1);
@@ -74,7 +78,11 @@ jQuery(document).ready(function($) {
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
         } else {
-            $('.tab-con .item').height(h1 - h2 + 60);
+            if(isSafari) {
+                $('.tab-con .item').height(h1 - h2 + 100);
+            }else {
+                $('.tab-con .item').height(h1 - h2 + 60);
+            }
         }
         if(h3 < 180) {
             $('.slogan').css({
@@ -98,7 +106,11 @@ jQuery(document).ready(function($) {
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
         } else {
-            $('.tab-con .item').height(h1 - h2 + 60);
+            if(isSafari) {
+                $('.tab-con .item').height(h1 - h2 + 100);
+            }else {
+                $('.tab-con .item').height(h1 - h2 + 60);
+            }
         }
 
         if(h3 < 180) {
