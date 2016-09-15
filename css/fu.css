@@ -1020,8 +1020,6 @@ ul.portfolio-items >li.info-item {
 .social .back {
     transform:rotateY(-100deg) translateZ(40px);
     opacity: 0;
-    width: 100px;
-    height: 100px;
     position: absolute; top: 0; left: 0; right: 0; bottom: 0;
 }
 
@@ -1516,7 +1514,7 @@ ul.portfolio-items >li.info-item {
     }
 
     .extra-title {
-        color: #03b0d2;
+        color: #666;
     }
 
     .extra-category {
@@ -1638,8 +1636,11 @@ ul.portfolio-items >li.info-item {
 
     .demo-3 li img {
         width: 80%;
-        
         display: inline-block;
+    }
+
+    .social >div img {
+        zoom: 0.7;
     }
 
     .firstSection .navbar-nav >li.email {
