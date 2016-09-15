@@ -83,14 +83,12 @@ jQuery(document).ready(function($) {
         }
         if(h3 < 180) {
             $('.slogan').css({
-                "font-size":"24px",
-                "margin-top":"5px"
+                "font-size":"24px"
             });
         }
         if(h3 >= 180) {
             $('.slogan').css({
-                "font-size":"36px",
-                "margin-top":"20px"
+                "font-size":"36px"
             });
         }
     });
@@ -113,15 +111,13 @@ jQuery(document).ready(function($) {
 
         if(h3 < 180) {
             $('.slogan').css({
-                "font-size":"24px",
-                "margin-top":"5px"
+                "font-size":"24px"
             });
         }
 
         if(h3 >= 180) {
             $('.slogan').css({
-                "font-size":"36px",
-                "margin-top":"20px"
+                "font-size":"36px"
             });
         }
 

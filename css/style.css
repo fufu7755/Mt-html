@@ -38,11 +38,11 @@ body {
 }
 
 .background:nth-child(2) {
-  background-image: url(../img/back-blue.jpg);
+  background-color: #00b5d9;
 }
 
 .background:nth-child(3) {
-  background-image: url(../img/back-blue.jpg);
+  background-color: #00b5d9;
 }
 
 .background:nth-child(4) {
