@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .brand-logo {
     width: 164px;
-    height: 25px;
+    height: 24px;
     background: url("../img/logo_blue.png") 0 0 no-repeat;
     display: block;
 }
@@ -1209,7 +1209,7 @@ ul.portfolio-items >li.info-item {
     }
 
     #header {
-        height: 55px;
+        height: 48px;
     }
 
     .firstSection .navbar-nav >li {
@@ -1217,7 +1217,7 @@ ul.portfolio-items >li.info-item {
     }
 
     .navbar-brand {
-        padding: 15px 15px;
+        padding: 12px 15px;
     }
 
     .slogan {
