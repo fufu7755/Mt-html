@@ -11,6 +11,10 @@ body {
     font-weight: 100;
 }
 
+body.homePage {
+    overflow: hidden;
+}
+
 .phone {
     font-family: "bebas";
     font-weight: 100;
@@ -56,7 +60,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* Centered texts in each section
 * --------------------------------------- */
 .section{
-    text-align:center;
+    height: auto;
 }
 
 /* Fixed header and footer.
@@ -247,7 +251,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
 }
 
-.content, .copyright {
+.content {
     position: absolute;
     bottom: 0;
     width:100%;
@@ -257,6 +261,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #1d2029;
     padding: 10px 0;
     color: #666;
+}
+
+.homePage .copyright {
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }
 
 .mb-30 {
@@ -1255,7 +1265,7 @@ ul.portfolio-items >li.info-item {
         height: 150px;
     }
 
-    .copyright {
+    .homePage .copyright {
         position: relative;
     }
 
