@@ -1521,6 +1521,25 @@ ul.portfolio-items >li.info-item {
         color: #666;
     }
 
+    .awards {
+        height: 50px;
+    }
+
+    .award-logo {
+        height: 30px;
+    }
+
+    .team-title {
+        height: auto;
+        font-size: 24px;
+        background: transparent;
+        color: #666;
+    }
+
+    .team-title b {
+        font-size: 24px;
+    }
+
 }
 
 @media (min-width: 768px) {
