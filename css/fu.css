@@ -1555,6 +1555,7 @@ ul.portfolio-items >li.info-item {
         font-size: 24px;
         background: transparent;
         color: #666;
+        margin-top: 20px;
     }
 
     .team-title b {
