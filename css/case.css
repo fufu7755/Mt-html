@@ -98,3 +98,50 @@ ul.case-items li:hover .image-extra {
     font-size: 36px;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    ul.case-items li .image-extra {
+        position: relative;
+        background-color: #fff;
+        opacity: 1;
+        padding: 5px 0;
+    }
+
+    .exp-box {
+        padding-top: 50px;
+        height: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ul.case-items li .work-item {
+        min-height: 150px;
+    }
+
+    .extra-title {
+        color: #666;
+    }
+
+    .extra-category {
+        color: #666;
+    }
+
+    .case-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    ul.case-items > li {
+        height: 25%;
+        width: 50%;
+        max-width: 50%;
+    }
+
+    ul.case-items > li.wide {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
