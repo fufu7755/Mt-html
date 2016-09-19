@@ -622,9 +622,9 @@ ul.p_training >li {
 
 ul.portfolio-items .mix { display: none; }
 
-ul.portfolio-items img { 
-    display: block; 
-    width:100%; 
+ul.portfolio-items img {
+    display: block;
+    width:100%;
 }
 
 .work-item {
@@ -775,7 +775,7 @@ ul.portfolio-items li:hover .image-extra {
     display:block;
     position:relative;
     z-index:10;
-    
+
 }
 .demo-3 figure figcaption {
     display:block;
@@ -1038,7 +1038,15 @@ ul.portfolio-items >li.info-item {
     transform: rotateY(100deg);
 }
 
+.active .social {
+    transform: rotateY(100deg);
+}
+
 .social:hover .front {
+    opacity: 0;
+}
+
+.active .social .front {
     opacity: 0;
 }
 
@@ -1046,6 +1054,9 @@ ul.portfolio-items >li.info-item {
     opacity: 1;
 }
 
+.active .social .back {
+    opacity: 1;
+}
 
 /* Class Section */
 .class-top {
@@ -1401,7 +1412,7 @@ ul.portfolio-items >li.info-item {
     .in .navbar-nav >li:nth-child(6) a {
         display: inline-block;
     }
-    
+
     .in .navbar-nav >li:nth-child(7) {
         transform: translateY(0);
         position: relative;
@@ -1582,7 +1593,7 @@ ul.portfolio-items >li.info-item {
         width: 100%;
         max-width: 100%;
     }
-    
+
     .effect .back:hover {
         bottom:-60px;
         padding-top:60px
@@ -1685,5 +1696,3 @@ ul.portfolio-items >li.info-item {
     }
 
 }
-
-
