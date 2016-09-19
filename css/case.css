@@ -1,5 +1,9 @@
 /* case.html css */
 
+.caseShow {
+    background-color: #f6f6f6;
+}
+
 .exp-box {
     width: 100%;
     height: 231px;
@@ -97,6 +101,122 @@ ul.case-items li:hover .image-extra {
 .case-title {
     font-size: 36px;
     color: #fff;
+}
+
+.case_cover {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+}
+
+.c_center {
+    width: 100%;
+    padding: 50px;
+    margin: -100px auto 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+    color: #333;
+}
+
+.c_center h1 {
+    text-align: center;
+    padding: 15px 0 45px 0;
+}
+
+.c_center p {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.c_center img {
+    padding: 50px 0 40px 0;
+}
+
+.share_b {
+    width: 35%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.share_b label {
+    width: 75px;
+    line-height: 50px;
+    float: left;
+    font-size: 21px;
+    display: block;
+    font-weight: 100;
+}
+
+.share_b a {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    padding: 14px 0;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.share_b .email-icon {
+    background-color: #03b0d2;
+}
+
+.share_b .weixin-icon {
+    background-color: #36b832;
+}
+
+.share_b .linkedin-icon {
+    background-color: #ef6358;
+}
+
+.center_line {
+    width: 100%;
+    height: 3px;
+    overflow: hidden;
+    border-bottom: 1px solid #C2C2C2;
+    padding: 20px 0;
+}
+
+.c_center h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 70px 0 70px 0;
+}
+
+.related_item {
+    height: 183px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
+    box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
+    display: block;
+}
+
+.related_item .image-extra{
+    position: absolute;
+    bottom: 0;
+    /*left: -1px;*/
+    z-index: 3;
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    background-color: rgba(0, 194, 169, 0.1);
+    transition: opacity 0.5s, transform 0.5s;
+    -webkit-transition: opacity 0.5s, transform 0.5s;
+    -moz-transition: opacity 0.5s, transform 0.5s;
+    /*
+    -webkit-transition: opacity .25s ease, background-color .45s ease;
+            transition: opacity .25s ease, background-color .45s ease;
+    */
 }
 
 @media (max-width: 768px) {
