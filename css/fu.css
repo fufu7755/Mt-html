@@ -1020,7 +1020,7 @@ ul.portfolio-items >li.info-item {
     display: block;
     position: relative;
     transform:rotateY(0deg);
-    transition:transform .25s ease-out;
+    transition:transform .4s ease-out;
     transform-style:preserve-3d;
 }
 
