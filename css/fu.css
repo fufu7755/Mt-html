@@ -1020,7 +1020,7 @@ ul.portfolio-items >li.info-item {
     display: block;
     position: relative;
     transform:rotateY(0deg);
-    transition:transform .4s ease-out;
+    transition:transform .5s ease-out;
     transform-style:preserve-3d;
 }
 
@@ -1038,7 +1038,7 @@ ul.portfolio-items >li.info-item {
     transform: rotateY(100deg);
 }
 
-.active .social {
+.item.active .social {
     transform: rotateY(100deg);
 }
 
@@ -1046,7 +1046,7 @@ ul.portfolio-items >li.info-item {
     opacity: 0;
 }
 
-.active .social .front {
+.item.active .social .front {
     opacity: 0;
 }
 
@@ -1054,7 +1054,7 @@ ul.portfolio-items >li.info-item {
     opacity: 1;
 }
 
-.active .social .back {
+.item.active .social .back {
     opacity: 1;
 }
 
