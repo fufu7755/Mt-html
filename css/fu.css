@@ -206,11 +206,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #fff;
 }
 
-.firstSection .tableCell {
+.first-section .tableCell {
     vertical-align: bottom;
 }
 
-.firstSection .intro {
+.first-section .intro {
     position: absolute;
     bottom: 0;
     background-color: rgb(239, 239, 239);
@@ -1194,6 +1194,46 @@ ul.portfolio-items >li.info-item {
 
 @media (max-width: 768px) {
 
+    .background.up-scroll {
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+
+    .background.up-scroll .content-wrapper {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .background.up-scroll + .background {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    .background.up-scroll + .background .content-wrapper {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .background.down-scroll {
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+
+    .background.down-scroll .content-wrapper {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    .background.down-scroll + .background:not(.down-scroll) {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
     html, body {
         overflow: scroll;
     }
@@ -1371,7 +1411,7 @@ ul.portfolio-items >li.info-item {
         background-color: #fff;
     }
 
-    .firstSection .intro .item {
+    .first-section .intro .item {
         padding: 0;
     }
 
@@ -1562,6 +1602,22 @@ ul.portfolio-items >li.info-item {
         font-size: 24px;
     }
 
+    .social >div img {
+        zoom: 0.7;
+    }
+
+    .firstSection .navbar-nav >li.email {
+        color: #00a2c2;
+    }
+
+
+    .zx img {
+        max-height: 100px;
+    }
+    .index-banner .tab-con .item4 {
+        background-image: url(../img/sm1.jpg) !important;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -1678,22 +1734,6 @@ ul.portfolio-items >li.info-item {
     .demo-3 li img {
         width: 80%;
         display: inline-block;
-    }
-
-    .social >div img {
-        zoom: 0.7;
-    }
-
-    .firstSection .navbar-nav >li.email {
-        color: #00a2c2;
-    }
-
-
-    .zx img {
-        max-height: 100px;
-    }
-    .index-banner .tab-con .item4 {
-        background-image: url(../img/sm1.jpg) !important;
     }
 
 }

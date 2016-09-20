@@ -67,7 +67,7 @@ function _createTimer() {
 jQuery(document).ready(function($) {
     $(window).load(function() {
         /* Act on the event */
-        var h1 = $(window).outerHeight();
+        var h1 = $(window).height();
         var w1 = $(window).width()
         var h2 =  $('.intro').height();
         var h3 = $('.case-top').height();
@@ -78,7 +78,7 @@ jQuery(document).ready(function($) {
                 $('.tab-con .item').height(560);
 
             }else {
-                $('.tab-con .item').height(h1 - h2 + 60);
+                $('.tab-con .item').height(h1 - h2 + 15);
             }
         }
         if(h3 < 180) {
@@ -94,9 +94,9 @@ jQuery(document).ready(function($) {
     });
     $(window).resize(function(event) {
         /* Act on the event */
-        var h1 = $(window).outerHeight();
+        var h1 = $(window).height();
         var w1 = $(window).width();
-        var h2 =  $('.intro').height();
+        var h2 = $('.intro').height();
         var h3 = $('.case-top').height();
         if(w1 > 768) {
             $('.tab-con .item').height(h1 - h2);
@@ -105,7 +105,7 @@ jQuery(document).ready(function($) {
 
                 $('.tab-con .item').height(560);
             }else {
-                $('.tab-con .item').height(h1 - h2 + 60);
+                $('.tab-con .item').height(h1 - h2 + 15);
             }
         }
 

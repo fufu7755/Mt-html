@@ -191,32 +191,15 @@ ul.case-items li:hover .image-extra {
     padding: 70px 0 70px 0;
 }
 
-.related_item {
+ul.portfolio-items.related_list li {
     height: 183px;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
     -moz-box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
     box-shadow: 0px 5px 10px 0px rgba(136,136,136,1);
     display: block;
-}
-
-.related_item .image-extra{
-    position: absolute;
-    bottom: 0;
-    /*left: -1px;*/
-    z-index: 3;
-    overflow: hidden;
     width: 100%;
-    height: 30%;
-    opacity: 0;
-    filter: alpha(opacity = 0);
-    background-color: rgba(0, 194, 169, 0.1);
-    transition: opacity 0.5s, transform 0.5s;
-    -webkit-transition: opacity 0.5s, transform 0.5s;
-    -moz-transition: opacity 0.5s, transform 0.5s;
-    /*
-    -webkit-transition: opacity .25s ease, background-color .45s ease;
-            transition: opacity .25s ease, background-color .45s ease;
-    */
+    max-width: 100%;
+    position: relative;
 }
 
 @media (max-width: 768px) {
