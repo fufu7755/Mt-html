@@ -18,10 +18,10 @@ function parallaxScroll(evt) {
         $('.scrollup').fadeOut();
     }
     if (currentSlideNumber == 0) {
-        $('body').addClass('firstSection');
+        $('body.homePage').addClass('firstSection');
     }
     if (currentSlideNumber != 0) {
-        $('body').removeClass('firstSection');
+        $('body.homePage').removeClass('firstSection');
     }
     if (isFirefox) {
         //Set delta for Firefox

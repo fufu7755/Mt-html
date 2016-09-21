@@ -232,6 +232,35 @@ ul.portfolio-items.related_list li {
     .case-title {
         font-size: 24px;
     }
+
+    .c_center {
+        padding: 0;
+    }
+
+    .c_center h1 {
+        font-size: 24px;
+    }
+
+    .share_b {
+        width: 90%;
+    }
+
+    ul.portfolio-items.related_list li {
+        height: 260px;
+    }
+
+    ul.portfolio-items.related_list {
+        margin-bottom: 20px;
+    }
+
+    ul.portfolio-items.related_list li {
+        padding: 0 10px;
+        box-shadow: none;
+    }
+
+    ul.portfolio-items.related_list li .work-item {
+        height: 200px;
+    }
 }
 
 @media (max-width: 414px) {
