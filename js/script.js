@@ -65,6 +65,11 @@ function _createTimer() {
 }
 
 jQuery(document).ready(function($) {
+    $("body").imagesLoaded(function(){
+        $(".page-loader div").fadeOut();
+        $(".page-loader").delay(200).fadeOut("slow");
+    });
+
     $(window).load(function() {
         /* Act on the event */
         var h1 = $(window).height();
